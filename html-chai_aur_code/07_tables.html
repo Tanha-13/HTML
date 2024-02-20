@@ -10,22 +10,23 @@
             width: 100%;
             border-collapse: collapse;
             text-align: center;
-            color: white;
+            color: black;
+            margin: 20px;
         }
         td,th{
             border: 1px solid black;
             padding: 10px;
         }
         tr:nth-child(even){
-            background-color: #6e6e6e;
-        }
-        tr:nth-child(odd){
-            color: black;
+            background-color: #919191;
         }
     </style>
 </head>
 <body>
     <table>
+        <colgroup>
+            <col span="2" style="background-color: cadetblue;" />
+        </colgroup>
         <tr>
             <th>Country</th>
             <th>Country Code</th>
@@ -55,6 +56,26 @@
             <td>China</td>
             <td>CN</td>
             <td>cn@google.com</td>
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th colspan="2">Country</th>
+            <td>Bangladesh</td>
+            <td>India</td>
+            <td>Japan</td>
+        </tr>
+        <tr>
+            <th>Code</th>
+            <td>BD</td>
+            <td>IN</td>
+            <td>JP</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>bd@gmail.com</td>
+            <td>in@gmail.com</td>
+            <td>jp@gmail.com</td>
         </tr>
     </table>
 </body>
