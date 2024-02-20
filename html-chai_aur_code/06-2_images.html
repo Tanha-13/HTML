@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Images</title>
+  </head>
+  <body>
+    <!-- <img
+      src="https://images.pexels.com/photos/18107024/pexels-photo-18107024/free-photo-of-an-old-city-view.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      alt="no image"
+      width="500px"
+    />
+    <img src="./checklist.png" width="500px" alt="" />
+
+    <picture>
+      <source media="(min-width: 650px)" srcset="./checklist.png" />
+      <source media="(min-width: 800px)" srcset="./js.jpeg" />
+      <img src="./checklist.png" width="500px" alt="" />
+    </picture> -->
+
+    <!-- an image map generator -->
+    <img src="./js.jpeg" usemap="#image-map" />
+
+    <map name="image-map">
+      <area
+        onclick="one()"
+        target=""
+        alt=""
+        title=""
+        href=""
+        coords="289,187,463,352"
+        shape="rect"
+      />
+      <area
+      onclick="two()"
+        target=""
+        alt=""
+        title=""
+        href=""
+        coords="485,243,772,292"
+        shape="rect"
+      />
+    </map>
+
+    <script>
+      function one() {
+        alert("You clicked on one");
+      }
+      function two() {
+        alert("You clicked on two");
+      }
+    </script>
+  </body>
+</html>
