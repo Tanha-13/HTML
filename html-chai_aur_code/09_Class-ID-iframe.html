@@ -1,27 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Class ID Selector</title>
 
     <style>
-        .red{
-            background-color: coral;
-        }
-        #green{
-            background-color: darkgreen;
-        }
-    </style>
-</head>
-<body>
-    <p class="red">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio officia reprehenderit quaerat veritatis unde ipsum, autem provident amet officiis velit.</p>
+      .red {
+        background-color: coral;
+      }
+      #green {
+        background-color: darkgreen;
+      }
 
-    <p id="green">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio officia reprehenderit quaerat veritatis unde ipsum, autem provident amet officiis velit.</p>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      tr,
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="red">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio officia
+      reprehenderit quaerat veritatis unde ipsum, autem provident amet officiis
+      velit.
+    </p>
+
+    <p id="green">
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio officia
+      reprehenderit quaerat veritatis unde ipsum, autem provident amet officiis
+      velit.
+    </p>
 
     <h1 class="red">Test 01</h1>
     <h2>Test 02</h2>
 
-    
-</body>
+    <table>
+      <tr>
+        <th>Country</th>
+        <td>Bangladesh</td>
+        <td>India</td>
+        <td>Japan</td>
+      </tr>
+      <tr>
+        <th>Code</th>
+        <td>BD</td>
+        <td>IN</td>
+        <td>JP</td>
+      </tr>
+      <tr>
+        <th>Email</th>
+        <td>bd@gmail.com</td>
+        <td>in@gmail.com</td>
+        <td>jp@gmail.com</td>
+      </tr>
+      <tr>
+        <th>Code</th>
+        <td>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/j6y8WWFnZqY?si=nGKzGMbtTA_PVzcz"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </td>
+        <td>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/I7LrS1z_WNA?si=rO7nnjrHRvT7sWJk"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </td>
+        <td>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/I7LrS1z_WNA?si=rO7nnjrHRvT7sWJk"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </td>
+      </tr>
+    </table>
+  </body>
 </html>
